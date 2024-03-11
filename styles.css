@@ -107,13 +107,16 @@ h2 {
 } */
 #text-image {
   margin: 100px;
-  font-size: 30px;
+  font-size: 18px;
+  width: 70%;
 }
 
 p {
   font-family: "Trocchi", serif;
   font-weight: 400;
   font-style: normal;
+  color: #d27d77f0;
+  text-align: justify;
 }
 
 /* .grid-container {
@@ -220,11 +223,11 @@ p {
   align-items: center;
 }
 
-.quote-container {
+/* .quote-container {
   flex: 1;
   text-align: right;
 }
 
 .quote {
   font-style: italic;
-}
+} */
