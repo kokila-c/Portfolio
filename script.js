@@ -1,3 +1,5 @@
+import { myFunction } from "sendSMS.js";
+
 function toggleFullscreen(image) {
   if (!document.fullscreenElement) {
     image.classList.add("fullscreen");
@@ -14,6 +16,24 @@ function toggleFullscreen(image) {
   }
 }
 function sendSMS() {
+  // code in main.js
+
+  myFunction(); // Call function from other file
+
+  // fetch("/sendSMS", {
+  //   method: "POST",
+  // })
+  //   .then((response) => {
+  //     if (!response.ok) {
+  //       throw new Error("Failed to send SMS");
+  //     }
+  //     return response.text(); // Read the response as text
+  //   })
+  //   .then((text) => {
+  //     alert("SMS sent successfully");
+  //   })
+  //   .catch((error) => alert("Failed to send SMS: " + error.message));
+
   // You would have JavaScript code here to capture user's phone number and message,
   // and send the SMS using Twilio's API.
   alert("SMS feature is not implemented in this demo.");
