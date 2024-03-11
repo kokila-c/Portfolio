@@ -181,9 +181,9 @@ p {
   padding: 10px;
 }
 
-.icons a {
+/* .icons a {
   margin: 0 10px;
-}
+} */
 
 /* .fullscreen {
   position: fixed;
@@ -216,7 +216,7 @@ p {
   position: fixed;
   right: 2%;
   bottom: 1%;
-  margin-right: 20px;
+  margin-right: 10px;
   display: flex;
   justify-content: end;
   flex-direction: column;
