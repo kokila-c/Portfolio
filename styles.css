@@ -10,16 +10,11 @@ body {
   max-width: 100vw;
   /* overflow: visible; */
 }
-
+/* #aboutme,
 #home,
-#ommeg,
-#project,
-#hjem #projects,
-#aboutme {
-  /* width: 100vw; */
-  /* height: 100vh; */
-}
-
+#projects {
+  max-height: 90vh;
+} */
 .navbar {
   background-color: rgb(247, 249, 249);
   background-color: rgba(0, 0, 0, 0.4);
@@ -69,8 +64,9 @@ body {
   align-content: center;
 }
 #word {
-  margin-top: 8%;
-  margin-left: 10%;
+  /* margin-top: 8%;
+  margin-left: 10%; */
+  margin: 8% 10%;
 }
 #om-meg {
   display: flex;
@@ -131,34 +127,39 @@ p {
   font-style: normal;
   color: #d27d77f0;
   text-align: justify;
+  text-decoration: none;
 }
 
 #cv {
-  color: 63B1FF; /* Default color */
+  text-decoration: none;
+  color: #f9fafc; /* Default color */
+  font-size: 20px;
 }
 
 /* Styling for the first link when hovered */
 #cv:hover {
-  color: 36F48D; /* Color on hover */
+  color: #36f48d; /* Color on hover */
 }
 
 /* Styling for the first link when active (clicked) */
 #cv:active {
-  color: E25DF8; /* Color when clicked */
+  color: #e25df8; /* Color when clicked */
 }
 
 #ln {
-  color: 63B1FF; /* Default color */
+  text-decoration: none;
+  color: #f9fafc; /* Default color */
+  font-size: 20px;
 }
 
 /* Styling for the first link when hovered */
 #ln:hover {
-  color: 36F48D; /* Color on hover */
+  color: #36f48d; /* Color on hover */
 }
 
 /* Styling for the first link when active (clicked) */
 #ln:active {
-  color: E25DF8; /* Color when clicked */
+  color: #e25df8; /* Color when clicked */
 }
 
 /* .grid-container {
@@ -186,7 +187,7 @@ p {
   padding: 0px;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  /* margin: 40px; */
 }
 
 .grid-item {
@@ -230,7 +231,8 @@ p {
   width: 500px;
   /* padding: 10px; */
 }
-#kl-icons {
+#kl-icons,
+#k-icons {
   /* display: flex; */
   justify-content: center;
   align-items: center;
