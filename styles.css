@@ -5,16 +5,10 @@
 }
 
 body {
-  /* background-color: #18342b; */
   background-image: linear-gradient(180deg, #18342b, #224a6e);
   max-width: 100vw;
-  /* overflow: visible; */
 }
-/* #aboutme,
-#home,
-#projects {
-  max-height: 90vh;
-} */
+
 .navbar {
   background-color: rgb(247, 249, 249);
   background-color: rgba(0, 0, 0, 0.4);
@@ -27,7 +21,6 @@ body {
   justify-content: end;
   left: 0;
   padding-left: 40px;
-  /* opacity: 0.1; */
 }
 
 .navbar a {
@@ -64,8 +57,6 @@ body {
   align-content: center;
 }
 #word {
-  /* margin-top: 8%;
-  margin-left: 10%; */
   margin: 8% 10%;
 }
 #om-meg {
@@ -89,31 +80,15 @@ h2 {
   height: 300px;
   object-fit: contain;
   float: left;
-
-  /*padding: 0%;
-  margin: auto; */
 }
-/* #me {
-  flex-direction: column;
-} */
-/* .grid-profile {
-  display: inline-grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
-} */
+
 .profile {
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 30px;
-  /* margin: 10px; */
+
   text-align: center;
 }
-/* #icons {
-  display: flex;
-  justify-content: center;
-  width: 20px;
-  padding: 10px;
-} */
+
 #text-image {
   margin: 5% 12%;
   font-size: 18px;
@@ -136,12 +111,11 @@ p {
   font-size: 20px;
 }
 
-/* Styling for the first link when hovered */
+/* Styling  when hovered */
 #cv:hover {
   color: #36f48d; /* Color on hover */
 }
 
-/* Styling for the first link when active (clicked) */
 #cv:active {
   color: #e25df8; /* Color when clicked */
 }
@@ -152,28 +126,14 @@ p {
   font-size: 20px;
 }
 
-/* Styling for the first link when hovered */
 #ln:hover {
   color: #36f48d; /* Color on hover */
 }
 
-/* Styling for the first link when active (clicked) */
 #ln:active {
   color: #e25df8; /* Color when clicked */
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px; 
-}
-
-.grid-item {
-  background-color: #ccc;
-  padding: 20px;
-  text-align: center;
-} */
 .container {
   width: 80%; /* Adjust the width of the container */
   margin: 80px 100px; /* Center the container horizontally */
@@ -187,11 +147,9 @@ p {
   padding: 0px;
   justify-content: center;
   align-items: center;
-  /* margin: 40px; */
 }
 
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
   border: 1px solid rgba(0, 0, 0, 0.8);
   display: inline-flex;
   flex-direction: row;
@@ -200,17 +158,8 @@ p {
   text-align: center;
   background-color: rgb(45, 122, 122);
   height: 300px;
-  /* width: 700px; */
 }
 
-/* .box {
-  width: 550px;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-} */
-/* .box img { */
 .grid-item img {
   width: 50%;
   height: auto;
@@ -219,25 +168,20 @@ p {
 }
 
 .description {
-  /* font-size: 16px; */
   margin: 10px;
   text-align: justify;
 }
 
 .icons {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   width: 500px;
-  /* padding: 10px; */
 }
 #kl-icons,
 #k-icons {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   width: 300px;
-  /* padding: 10px; */
 }
 #describe {
   font-size: 13px;
@@ -250,33 +194,12 @@ h3 {
   font-size: 18px;
 }
 
-/* .icons a {
-  width: 50px;
-} */
-
-/* .fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fullscreen img {
-  max-width: 90%;
-  max-height: 90%;
-} */
 .contact-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   max-width: 800px;
-  /* padding: 20px; */
-  /* background-color: #fff; */
+
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -289,21 +212,13 @@ h3 {
 
   display: flex;
   justify-content: space-evenly;
-  /* justify-items: end; */
+
   flex-direction: column;
   align-items: center;
   width: auto;
   height: 200px;
 }
 
-/* .quote-container {
-  flex: 1;
-  text-align: right;
-}
-
-.quote {
-  font-style: italic;
-} */
 .number {
   position: relative;
   display: inline-block;
