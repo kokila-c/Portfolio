@@ -105,7 +105,9 @@ p {
   text-align: justify;
   text-decoration: none;
 }
-
+.highlights {
+  color: #36f48d;
+}
 #cv {
   text-decoration: none;
   color: #f9fafc; /* Default color */
