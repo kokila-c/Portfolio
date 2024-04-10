@@ -253,3 +253,10 @@ h3 {
   font-style: normal;
   font-size: 15px;
 }
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Display a single column */
+  }
+}
