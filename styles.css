@@ -47,7 +47,10 @@ body {
   margin-right: 5px;
   width: 30px;
 }
-
+#hjem,
+#home {
+  height: 100vh;
+}
 #crossword,
 #word {
   width: 80vw;
